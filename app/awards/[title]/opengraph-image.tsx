@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { awards } from "../app-data";
 
 // Image metadata
 export const alt = "About Acme";
@@ -8,7 +9,7 @@ export const size = {
 };
 
 export const contentType = "image/png";
-
+export const dynamic = "force-static";
 // Image generation
 export default async function Image() {
   // Font
@@ -48,4 +49,8 @@ export default async function Image() {
       //   ],
     }
   );
+}
+
+export async function generateStaticParams() {
+  return awards;
 }
