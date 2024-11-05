@@ -14,13 +14,13 @@ export const awards: Award[] = [
     summary: "This is the summary of the award.",
   },
   {
-    title: "Best of the Best",
+    title: "abc",
     date: "2021-01-01",
     winnerName: "John Doe",
     summary: "This is the summary of the award.",
   },
   {
-    title: "Best of the Best",
+    title: "def",
     date: "2021-01-01",
     winnerName: "John Doe",
     summary: "This is the summary of the award.",
