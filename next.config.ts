@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   basePath: isProd ? "/github-pages-demo" : "",
   assetPrefix: isProd ? "/github-pages-demo/" : "",
   images: {
-    domains: ["thivy.github.io"],
+    unoptimized: true,
   },
 };
 
