@@ -9,10 +9,12 @@ export async function generateStaticParams() {
   return awards;
 }
 
+import Logo from "./_opengraph-image.png";
+
 export function generateMetadata() {
   return {
     openGraph: {
-      images: ["/_opengraph-image.png"],
+      images: [Logo.src],
     },
   };
 }
